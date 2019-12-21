@@ -1,3 +1,4 @@
+import os
 from aiohttp import web
 from server.routes import setup_routes
 
@@ -5,7 +6,7 @@ from server.routes import setup_routes
 def main():
     app = web.Application()
     setup_routes(app)
-    web.run_app(app)
+    web.run_app(app, port=os.environ['PORT'])
 
 
 main()
