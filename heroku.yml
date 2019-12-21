@@ -1,5 +1,10 @@
+#build:
+#    docker:
+#        web: Dockerfile
+#run:
+#    web: ['python -m server']
 build:
-    docker:
-        web: Dockerfile
+  docker:
+    web: Dockerfile
 run:
-    web: ['python -m server']
+  web: python -m server
