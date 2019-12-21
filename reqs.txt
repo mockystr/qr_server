@@ -1,0 +1,16 @@
+aiohttp==3.6.2
+async-timeout==3.0.1
+attrs==19.3.0
+bcrypt==3.1.7
+cffi==1.13.2
+chardet==3.0.4
+idna==2.8
+imgkit==1.0.2
+Jinja2==2.10.3
+MarkupSafe==1.1.1
+multidict==4.7.2
+Pillow==6.2.1
+pycparser==2.19
+qrcode==6.1
+six==1.13.0
+yarl==1.4.2
